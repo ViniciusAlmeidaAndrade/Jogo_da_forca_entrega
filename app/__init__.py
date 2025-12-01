@@ -8,5 +8,5 @@ def create_app():
     # Em vez de register_blueprint, usamos include_router
     app.include_router(hangman_router)
     app.include_router(player_router)
-    
+
     return app
